@@ -24,7 +24,9 @@ input[type="textarea"] {
   box-sizing: border-box;
   height: 250px;
   margin: 8px 0;
+  overflow: auto;
   padding: 12px 20px;
   vertical-align: baseline;
+  white-space: pre-line;
   width: 350px;
 }
