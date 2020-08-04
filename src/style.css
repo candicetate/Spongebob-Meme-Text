@@ -1,7 +1,9 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   margin: 0 auto;
+  padding: 5px;
   text-align: center;
+  width: 100%;
 }
 
 button {
@@ -13,20 +15,63 @@ button {
   font-weight: bold;
   margin: 0 auto;
   padding: 20px;
+  width: 100%;
+}
+
+#converted {
+  border: 2px dotted #3ca4f3;
+  border-radius: 25px;
+  box-sizing: border-box;
+  height: 100px;
+  margin: 8px 0;
+  overflow: auto;
+  padding: 5px;
+  vertical-align: top;
+  white-space: pre-line;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.footer {
+  display: block;
+  font-size: 12px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+a.footer {
+  color: #000000;
+  display: inline;
+  text-decoration: underline;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  color: #3ca4f3;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 img {
   border-radius: 25px;
+  width: 300px;
 }
 
 input[type="textarea"] {
-  border: 3px solid #555;
+  border: 3px solid #3ca4f3;
+  border-radius: 25px;
   box-sizing: border-box;
-  height: 250px;
+  height: 100px;
   margin: 8px 0;
   overflow: auto;
-  padding: 12px 20px;
-  vertical-align: baseline;
+  overflow-wrap: normal;
+  overflow-x: scroll;
+  padding: 5px;
+  vertical-align: top;
   white-space: pre-line;
-  width: 350px;
+  width: 100%;
 }

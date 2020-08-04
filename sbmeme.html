@@ -6,41 +6,45 @@
     <title>Spongebob Meme Text Generator</title>
 
     <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;0,700;0,900;1,200;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <div class="container">
-      <h1>Mocking Spongebob Meme Text Generator</h1>
+    <div>
+      <h1>MoCkInG SpOnGeBoB MeMe TExT GeNeRaToR</h1>
       <img src="src/spongebob.jpg" />
-      <h2>Enter the text you want to convert:</h2>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <form id="text">
-            <input
-              id="textinput"
-              type="textarea"
-              placeholder="tYpE hErE"
-              autocomplete="off"
-              rows="5"
-              cols="33"
-            />
-            <button input type="submit">
-              cOnVeRt
-            </button>
-          </form>
-        </div>
-        <div class="col">
-          <p style="text-decoration: underline;">yOuR tExT:</p>
-          <p id="converted"></p>
-        </div>
-      </div>
+
+      <h2>
+        tYpE hErE:
+      </h2>
+      <form id="text">
+        <input
+          id="textinput"
+          type="textarea"
+          placeholder="tYpE hErE"
+          autocomplete="off"
+        />
+        <button input type="submit">
+          cOnVeRt
+        </button>
+      </form>
+
+      <h2>
+        yOuR tExT:
+      </h2>
+      <p id="converted"></p>
+
+      <p class="footer">
+        <a
+          href="https://github.com/candicetate/Spongebob-Meme-Text"
+          target="_blank"
+          class="footer"
+          >Open Source Code</a
+        >
+        by Candice Tate
+      </p>
     </div>
     <script src="src/scripts.js"></script>
   </body>
